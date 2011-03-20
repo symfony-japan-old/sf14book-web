@@ -1,0 +1,149 @@
+========
+正誤情報
+========
+
+このページには、書籍『symfony 1.4によるWebアプリケーション開発』の正誤情報について掲載しています。
+ご不便をおかけして、大変申し訳ございません。
+
+記述の誤りを見つけられた方は、hidenorigoto@gmail.com までご連絡ください。
+
+.. contents::
+   :depth: 1
+   :local:
+
+.. _updates-1:
+
+-------------
+第1版正誤情報
+-------------
+
+.. contents::
+   :depth: 1
+   :local:
+
+166ページ
+~~~~~~~~~
+
+    * 誤：［リスト4-51］－ InquryForm クラスのconfigure() メソッドでウィジェットのHTML 属性とオプションを指定
+    * 正：［リスト4-51］－ Inqu\ **i**\ ryForm クラスのconfigure() メソッドでウィジェットのHTML 属性とオプションを指定
+
+203ページ
+~~~~~~~~~
+
+    * 誤：■ [R]. 22 日目 - デプロイ
+    * 正：■ [\ **P**\ ]. 22 日目 - デプロイ
+
+206ページ
+~~~~~~~~~
+
+    * 誤：■ [G]. 第12章 - Adminジェネレータ
+    * 正：■ [G]. 第\ **14**\ 章 - Adminジェネレータ
+
+207ページ
+~~~~~~~~~
+
+    * 誤：■ [G]. Adminジェネレーター
+    * 正：■ [G]. **第14章 -** Adminジェネレータ
+
+209ページ
+~~~~~~~~~
+
+    * 誤：■ [P]. 17 日目 - AJAX
+    * 正：■ [P]. **18** 日目 - AJAX
+
+210ページ
+~~~~~~~~~
+
+    * 誤：■ [R]. タスク 設定ファイル
+    * 正：■ [R]. タスク
+
+263ページ
+~~~~~~~~~
+
+誤
+
+.. code-block:: php
+
+    //  ［リスト7-13］――メールアドレスの検証にsjValidatorEmailRFCを使う
+    class TestForm extends BaseForm
+    {
+      public function configure()
+      {
+        // :
+        $this->setValidators(array(
+          'email' => new sjValidatorEmailRFC();
+        ));
+        // :
+      }
+    }
+
+
+正（※コメントの行）
+
+.. code-block:: php
+
+    // ［リスト7-13］――メールアドレスの検証にsjValidatorEmailRFCを使う
+    class TestForm extends BaseForm
+    {
+      public function configure()
+      {
+        // :
+        $this->setValidators(array(
+          'email' => new sjValidatorEmailRFC(),      // ※カンマに修正
+        ));
+        // :
+      }
+    }
+
+
+
+266ページ
+~~~~~~~~~
+
+誤
+
+.. code-block:: php
+
+    // ［リスト7-16］――入力内容を自動的に半角に変換する
+    class TestForm extends BaseForm
+    {
+      public function configure()
+      {
+        // :
+        $this->setValidators(array(
+          'email' => new sjValidatorEmailKtai(array(
+            'convert_multibyte' => true,
+          ));
+        ));
+        // :
+      }
+    }
+
+
+正（※コメントの行）
+
+.. code-block:: php
+
+    // ［リスト7-16］――入力内容を自動的に半角に変換する
+    class TestForm extends BaseForm
+    {
+      public function configure()
+      {
+        // :
+        $this->setValidators(array(
+          'email' => new sjValidatorEmailKtai(array(
+            'convert_multibyte' => true,
+          )),  // ※カンマに修正
+        ));
+        // :
+      }
+    }
+
+
+384ページ
+~~~~~~~~~
+
+    * 誤：http://localhost/frontend_dev.php/page/about
+    * 正：http://\ **symfony-band.local**\ /frontend_dev.php/page/about
+
+

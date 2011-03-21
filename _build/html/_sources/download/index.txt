@@ -35,3 +35,12 @@
 * 4章サンプルサイト `sf14book-symfonyband <https://github.com/symfony-japan/sf14book-symfonyband>`_
 * リスト・サンプルコード・コマンドや素材データ `sf14book-data <https://github.com/symfony-japan/sf14book-data>`_
 
+
+-------------------------
+zipファイルの展開時の注意
+-------------------------
+
+WindowsでOS標準のzip展開機能を利用する場合、symfonybandプロジェクト内に含まれているsymfonyファイルのパスが長くなるため展開できない場合があります。
+このような場合は、WinRAR等のツールを利用して展開を行ってください。
+
+

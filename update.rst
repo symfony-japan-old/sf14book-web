@@ -140,6 +140,13 @@
     }
 
 
+364ページ
+~~~~~~~~~
+
+    * 誤：リスト10-5の末尾にあるexecuteMasterKist()がMasterListアクションのコードです。
+    * 正：リスト10-5の末尾にあるexecuteMaster\ **L**\ ist()がMasterListアクションのコードです。
+
+
 384ページ
 ~~~~~~~~~
 

@@ -3,7 +3,7 @@
 
 .. figure:: _static/images/sf14book-image.jpg
 
-『symfony 1.4によるWebアプリケーション開発』　日本Symfonyユーザー会 著　（秀和システム）
+`『symfony 1.4によるWebアプリケーション開発』　日本Symfonyユーザー会 著　（秀和システム） <http://www.shuwasystem.co.jp/products/7980html/2934.html>`_
 
 ご購入はこちら
 

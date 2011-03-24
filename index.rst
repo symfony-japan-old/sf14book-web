@@ -11,6 +11,7 @@
    * `ビーケーワン <http://www.bk1.jp/product/03392317>`_
    * `e-hon <http://www.e-hon.ne.jp/bec/SA/Detail?refShinCode=0100000000000032564150&Action_id=121&Sza_id=GG>`_
    * `セブンネットショッピング <http://www.7netshopping.jp/books/detail/-/accd/1106019683>`_
+   * `MARUZEN & JUNKUDO <http://www.junkudo.co.jp/detail.jsp?ID=0112453387>`_
 
 --------
 お知らせ

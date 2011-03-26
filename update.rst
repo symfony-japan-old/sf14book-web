@@ -180,3 +180,10 @@
     * 正：http://\ **symfony-band.local**\ /frontend_dev.php/page/about
 
 
+422ページ
+~~~~~~~~~
+
+    * 誤：JavaのStrustやHibernate等、自分で組み合わせる個別のフレームワークを使用していました。
+    * 正：Javaの\ **Struts**\ やHibernate等、自分で組み合わせる個別のフレームワークを使用していました。
+
+

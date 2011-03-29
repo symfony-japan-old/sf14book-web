@@ -21,8 +21,8 @@
 各章を読み進める際は、こちらのファイルをご利用ください。
 各章のリストやコマンドの入力例のテキストデータ、および4章と7章のサンプルコードが収録されています。
 
-* `zip形式 <../_static/data-1.0.1.zip>`_
-* `tgz形式 <../_static/data-1.0.1.tar.gz>`_
+* `Windowsの方向け zip形式 <../_static/data-1.0.1.zip>`_
+* `Linux/Macの方向け tgz形式 <../_static/data-1.0.1.tar.gz>`_
 
 
 4章サンプルサイトの完成コード
@@ -32,8 +32,8 @@
 最終的な状態を確認したい場合にご利用ください。
 （4章で段階的に記述していくものと完成コードは異なる部分がありますので、ご注意ください）
 
-* `zip形式 <../_static/symfonyband-1.0.1.zip>`_
-* `tgz形式 <../_static/symfonyband-1.0.1.tar.gz>`_
+* `Windowsの方向け zip形式 <../_static/symfonyband-1.0.1.zip>`_
+* `Linux/Macの方向け tgz形式 <../_static/symfonyband-1.0.1.tar.gz>`_
 
 
 --------------------------------

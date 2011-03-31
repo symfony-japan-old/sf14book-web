@@ -50,3 +50,11 @@
     * `twitter@co3k <http://twitter.com/co3k>`_ `Web <http://co3k.org/>`_
 
 
+
+協力者
+------
+
+本書の内容等についてご協力いただきました。
+
+   * 及川 智（twitter `@renoiv <http://twitter.com/renoiv>`_\ ）様から、複数の修正点等のご指摘を頂きました。
+

@@ -21,6 +21,13 @@
    :depth: 1
    :local:
 
+66ページ
+~~~~~~~~
+
+「図2-3 インストール成功確認画面」のスクリーンキャプチャ内のブラウザのアドレスバーのURL
+
+    * 誤：http://localhost/sf14/frontend_dev.php/
+    * 正：http://localhost/sf14/\ **web/**\ frontend_dev.php/
 
 117ページ
 ~~~~~~~~~

@@ -29,6 +29,26 @@
     * 誤：http://localhost/sf14/frontend_dev.php/
     * 正：http://localhost/sf14/\ **web/**\ frontend_dev.php/
 
+94ページ
+~~~~~~~~
+
+「図3-1 プロジェクトの基本構成」内のlib/vendor/symfonyディレクトリという枠内の記述
+
+    * 誤：sfCoreAutoload.class.php
+    * 正：\ **lib/autoload/**\ sfCoreAutoload.class.php
+
+（この箇所では、「symfonyライブラリのかたまりと、そのかたまりを指定する際の起点ファイル」という意図で図を作成しましたが、lib/vendor/symfonyディレクトリ直下にsfCoreAutoload.class.phpが存在するようにも読めるため、上記のようにディレクトリ以下のパスを追加します）
+
+
+97ページ
+~~~~~~~~
+
+「図3-2 プロジェクトの基本構成2」内のlib/vendor/symfonyディレクトリという枠内の記述
+
+    * 誤：sfCoreAutoload.class.php
+    * 正：\ **lib/autoload/**\ sfCoreAutoload.class.php
+
+
 117ページ
 ~~~~~~~~~
 

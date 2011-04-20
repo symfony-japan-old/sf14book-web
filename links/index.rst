@@ -150,47 +150,47 @@
 
 * `[G]. Appendix A - モデルレイヤーの内側(Propel) <http://www.symfony-project.org/gentle-introduction/1_4/ja/A-Inside-the-Model-Layer-Propel>`_
 
-* `[P]. 1日目 - プロジェクトを始める <http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/01>`_
+* `[P]. 1日目 - プロジェクトを始める <http://www.symfony-project.org/jobeet/1_4/Propel/ja/01>`_
 
     Propelを使用したプロジェクトのセットアップ
 
-* `[P]. 3日目 - データモデル <http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/03>`_
+* `[P]. 3日目 - データモデル <http://www.symfony-project.org/jobeet/1_4/Propel/ja/03>`_
 
     Propelを使用した際のスキーマの構文、タスクを使ってのモデル構築、フィクスチャー
 
-* `[P]. 5日目 - ルーティング <http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/05>`_
+* `[P]. 5日目 - ルーティング <http://www.symfony-project.org/jobeet/1_4/Propel/ja/05>`_
 
     オブジェクトルートクラス、コレクションルートクラス
 
-* `[P]. 6日目 - モデルの詳細 <http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/06>`_
+* `[P]. 6日目 - モデルの詳細 <http://www.symfony-project.org/jobeet/1_4/Propel/ja/06>`_
 
     PropelのCriteriaオブジェクト、 SQLデバッグ、高度なフィクスチャー、リファクタリング
 
-* `[P]. 7日目 - カテゴリページで遊ぶ <http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/07>`_
+* `[P]. 7日目 - カテゴリページで遊ぶ <http://www.symfony-project.org/jobeet/1_4/Propel/ja/07>`_
 
     ページャー
 
-* `[P]. 8日目 - ユニットテスト <http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/08>`_
+* `[P]. 8日目 - ユニットテスト <http://www.symfony-project.org/jobeet/1_4/Propel/ja/08>`_
 
     Propelユニットテスト
 
-* `[P]. 10日目 - フォーム <http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/10>`_
+* `[P]. 10日目 - フォーム <http://www.symfony-project.org/jobeet/1_4/Propel/ja/10>`_
 
     Propelフォーム
 
-* `[P]. 11日目 - フォームをテストする <http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/11>`_
+* `[P]. 11日目 - フォームをテストする <http://www.symfony-project.org/jobeet/1_4/Propel/ja/11>`_
 
     Propelテスター
 
-* `[P]. 17日目 - 検索 <http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/17>`_
+* `[P]. 17日目 - 検索 <http://www.symfony-project.org/jobeet/1_4/Propel/ja/17>`_
 
     Luceneを使って全文検索を実装する方法、Propelトランザクション
 
-* `[P]. 19日目 - 国際化とローカライゼーション <http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/19>`_
+* `[P]. 19日目 - 国際化とローカライゼーション <http://www.symfony-project.org/jobeet/1_4/Propel/ja/19>`_
 
     国際化におけるPropelオブジェクト
 
-* `[P]. 23日目 - 別の視点からsymfonyを見る <http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/23>`_
+* `[P]. 23日目 - 別の視点からsymfonyを見る <http://www.symfony-project.org/jobeet/1_4/Propel/ja/23>`_
 
     propel:build --all、propel:build --all -and-load、propel:build-forms、propel:build-model、propel:build-sql、propel:data-load、propel:generate-admin、propel:generate-module、propel:insert-sql
 

@@ -268,6 +268,15 @@
     * 正：http://\ **symfony-band.local**\ /frontend_dev.php/page/about
 
 
+386ページ
+~~~~~~~~~
+
+11-3-2 「symfony コマンドによるデプロイ」の2行目
+
+    * 誤：これはsymofnyのタスク（symfonyコマンド）で実現されており、
+    * 正：これはsym\ **fo**\ nyのタスク（symfonyコマンド）で実現されており、
+
+
 422ページ
 ~~~~~~~~~
 

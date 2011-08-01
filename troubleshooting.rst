@@ -29,3 +29,32 @@
 
   * `ただいまsymfony1.4を勉強中！ <http://online-shortcut.com/blog/?p=1350>`_
 
+
+Windows環境でXAMPP付属のMercury/32を使ってメールを送信する
+----------------------------------------------------------
+
+Windowsで開発されている方の場合、XAMPPに付属するMercury/32をSMTPサーバーとして動作させることで、実際にメールを送信することができます。この場合、Mercury/32の以下の点をあらかじめ設定しておいてください。
+
+   XAMPP Control PanelよりMercuryのAdminボタンをクリックし、Mercury/32の管理画面を起動してください。
+  * メニューの [Configuration] にある [Mercury SMTP Server] を選択します。
+  * [Connection Control] タブで [Do not permit SMTP relaying of non-local mail] のチェックを外し、[OK] をクリックしてください。
+  * メニューの [Configuration] にある [Mercury SMTP Client] を選択します。
+  * [Name Servers] の欄に、お使いのプロバイダの DNS サーバーの IP アドレスを入力し、[OK] をクリックしてください。
+  * XAMPP Control PanelよりMercuryを一旦Stopし、その後Startしてください。
+
+また、symfonybandプロジェクトでは、メールの送信にSendmailを利用するようになっていますが、これをSMTPに変更します。
+``apps/frontend/config/factories.yml`` ファイルを開き、mailerの設定を以下のように変更してください。
+
+.. code-block:: yaml
+
+     mailer:
+       param:
+         charset: 'UTF-8'
+         delivery_strategy: realtime
+         transport:
+           class: Swift_SmtpTransport
+           param:
+             host: localhost
+             port: 25
+
+

@@ -57,5 +57,5 @@
 本書の内容等についてご協力いただきました。
 
    * 及川 智（twitter `@renoiv <http://twitter.com/renoiv>`_\ ）様から、複数の修正点等のご指摘を頂きました。
-   * `大山 淳 <tuan_banjarmasin@yahoo.co.jp>` 様から、複数の修正点のご指摘を頂きました。
+   * `大山 淳 <tuan_banjarmasin@yahoo.co.jp>`_ 様から、複数の修正点のご指摘を頂きました。
 

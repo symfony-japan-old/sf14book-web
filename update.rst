@@ -87,6 +87,8 @@ data/sqlディレクトリに生成されるschema.sqlファイルでは、リ�
     * 誤：filters、forms
     * 正：filter、form (\ **s** が不要）
 
+図4-9内のファイル名
+
     * 誤：PageFilter.class.php
     * 正：Page\ **Form**\ Filter.class.php
 

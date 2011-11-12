@@ -69,8 +69,14 @@
 125ページ
 ~~~~~~~~~
 
+リスト4-11の上の本文。
+
     * 誤：最終的に、リスト4-7のschema.ymlは、次のようなSQLでテーブルを作成するのと同じことになります。
     * 正：最終的に、リスト4-\ **9**\ のschema.ymlは、次のようなSQLでテーブルを作成するのと同じことになります。
+
+（リスト4-11についての補足）
+data/sqlディレクトリに生成されるschema.sqlファイルでは、リスト4-11のような整形されたSQL文ではなく、改行やインデントが入っていない状態で出力されます。
+また、CREATE文のオプションとして「CHARACTER SET utf8 COLLATE utf8_unicode_ci」も追加されたものになっています。
 
 
 127ページ
@@ -80,6 +86,9 @@
 
     * 誤：filters、forms
     * 正：filter、form (\ **s** が不要）
+
+    * 誤：PageFilter.class.php
+    * 正：Page\ **Form**\ Filter.class.php
 
 
 132ページ
